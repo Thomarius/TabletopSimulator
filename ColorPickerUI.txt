@@ -4,13 +4,12 @@
             <Button id="dedlyPlayerColorPickerCollapseColors" color="Grey" offsetXY="-85 0" width="20" onClick="{{GUID}}/collapseColorPicker">V</Button>
             <Button id="dedlyPlayerColorPickerExpandColors" color="Grey" offsetXY="-85 0" width="20" onClick="{{GUID}}/expandColorPicker">0</Button>
             <Text>Player Color Picker</Text>
-            <Button color="Red" offsetXY="85 0" width="20" onClick="{{GUID}}/closeColorPicker">X</Button>
         </Panel>
         <VerticalLayout id="dedlyPlayerColorPickerColorButtons">
-            <Button id="dedlyPlayerColorPicker_Red" color="Red" onClick="{{GUID}}/onChangeColor">Red</Button>
-            <Button id="dedlyPlayerColorPicker_White" color="White" onClick="{{GUID}}/onChangeColor">White</Button>
-            <Button id="dedlyPlayerColorPicker_Blue" color="Blue" onClick="{{GUID}}/onChangeColor">Blue</Button>
-            <Button id="dedlyPlayerColorPicker_Green" color="Green" onClick="{{GUID}}/onChangeColor">Green</Button>
+            <Button id="dedlyPlayerColorPicker_Red" color="Red" onClick="{{GUID}}/onChangeColor">Mausi 1</Button>
+            <Button id="dedlyPlayerColorPicker_White" color="White" onClick="{{GUID}}/onChangeColor">Mausi 2</Button>
+            <Button id="dedlyPlayerColorPicker_Blue" color="Blue" onClick="{{GUID}}/onChangeColor">Schatzi 1</Button>
+            <Button id="dedlyPlayerColorPicker_Green" color="Green" onClick="{{GUID}}/onChangeColor">Schatzi 2</Button>
         </VerticalLayout>
     </VerticalLayout>
 </Panel>
