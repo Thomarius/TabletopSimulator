@@ -6,10 +6,10 @@
             <Text>Player Color Picker</Text>
         </Panel>
         <VerticalLayout id="dedlyPlayerColorPickerColorButtons">
-            <Button id="dedlyPlayerColorPicker_Red" color="Red" onClick="{{GUID}}/onChangeColor">Mausi 1</Button>
-            <Button id="dedlyPlayerColorPicker_White" color="White" onClick="{{GUID}}/onChangeColor">Mausi 2</Button>
-            <Button id="dedlyPlayerColorPicker_Blue" color="Blue" onClick="{{GUID}}/onChangeColor">Schatzi 1</Button>
-            <Button id="dedlyPlayerColorPicker_Green" color="Green" onClick="{{GUID}}/onChangeColor">Schatzi 2</Button>
+            <Button id="dedlyPlayerColorPicker_Red" color="Yellow" onClick="{{GUID}}/onChangeColor">Mausi (Sonnenblume)</Button>
+            <Button id="dedlyPlayerColorPicker_White" color="Blue" onClick="{{GUID}}/onChangeColor">Mausi (Bolg)</Button>
+            <Button id="dedlyPlayerColorPicker_Blue" color="Green" onClick="{{GUID}}/onChangeColor">Schatzi (Ronja)</Button>
+            <Button id="dedlyPlayerColorPicker_Green" color="Purple" onClick="{{GUID}}/onChangeColor">Schatzi (Chrysanta)</Button>
         </VerticalLayout>
     </VerticalLayout>
 </Panel>
